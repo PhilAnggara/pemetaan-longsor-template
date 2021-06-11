@@ -1,23 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 body {
-  background: #f8f8f8;
+  background: #F8F8F8;
   font-family: "Assistant", sans-serif;
 }
 
 .btn-prim {
-  background-color: #FFAA64;
+  background-color: #FDAC41;
   color: #ffffff;
   height: 42px;
   width: 110px;
 }
 .btn-prim:hover {
-  background-color: #ffc697;
+  background-color: #ffc16f;
   color: #ffffff;
 }
 
 .text-tinggi {
-  color: #DC3737;
+  color: #FF4446;
 }
 
 .text-sedang {
@@ -25,42 +25,33 @@ body {
 }
 
 .text-rendah {
-  color: #70DD3D;
+  color: #6DE459;
 }
 
-.status-rendah {
+.status {
   font-size: 16px;
   color: #ffffff;
   text-align: center;
   vertical-align: middle;
-  background-color: #70DD3D;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 5px 10px;
 }
 
-.status-sedang {
-  font-size: 16px;
-  color: #ffffff;
-  text-align: center;
-  vertical-align: middle;
+.tidak-rawan {
+  background-color: #6DE459;
+}
+
+.rawan-sedang {
   background-color: #FFEA2C;
-  border-radius: 10px;
-  padding: 5px 10px;
 }
 
-.status-tinggi {
-  font-size: 16px;
-  color: #ffffff;
-  text-align: center;
-  vertical-align: middle;
-  background-color: #DC3737;
-  border-radius: 10px;
-  padding: 5px 10px;
+.rawan-tinggi {
+  background-color: #FF4446;
 }
 
 nav.navbar {
   padding: 10px 50px;
-  background-color: #85C8DD !important;
+  background-color: #ffffff !important;
 }
 nav.navbar .navbar-brand {
   font-family: "Kaushan Script", cursive;
@@ -74,24 +65,26 @@ main .content {
   margin-top: 50px;
 }
 main .content .header-card {
-  background-color: #1874C3;
-  height: 50px;
+  background-color: #2D7CFD;
+  height: 60px;
   border-radius: 10px;
-}
-main .content .header-card .card-body {
-  padding: 12px 20px;
+  margin-bottom: 20px;
 }
 main .content .header-card .card-body h1 {
   font-size: 18px;
   font-weight: bold;
 }
 main .content .map-card {
-  margin-top: 30px;
   border-radius: 20px;
   overflow: hidden;
 }
 main .content .map-card .card-body {
   padding: 0;
+}
+main .content .map-card .card-body iframe {
+  width: 100%;
+  height: 570px;
+  border: 0;
 }
 main .content .data-keseluruhan {
   margin-top: 30px;
@@ -104,6 +97,7 @@ main .content .data-keseluruhan h3 {
 main .content .data-keseluruhan h3 span {
   font-weight: 400;
 }
-main .content table {
-  margin-top: 30px;
+main .about {
+  background-color: #C7DEDF;
+  margin-top: 120px;
 }/*# sourceMappingURL=main.css.map */

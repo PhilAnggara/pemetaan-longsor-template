@@ -5,17 +5,14 @@
 // GLOBAL
 
 // Variable
-$color-1: #85C8DD;
+$color-1: #2D7CFD;
 $color-2: #1874C3;
-$bg-prim: #f8f8f8;
-$bg-admin: #F3F3F3;
-$bg-picture: #D88989;
-$rawan-tinggi: #DC3737;
+$bg-prim: #F8F8F8;
+$rawan-tinggi: #FF4446;
 $rawan-sedang: #FFEA2C;
-$rawan-rendah: #70DD3D;
-$gradient-1: linear-gradient(#ACB6E5, #86FDE8);
-$btn-col-1: #FFAA64;
-$btn-col-1-hov: #ffc697;
+$tidak-rawan: #6DE459;
+$btn-col-1: #FDAC41;
+$btn-col-1-hov: #ffc16f;
 $f-prim: 'Assistant', sans-serif;
 $f-navbar: 'Kaushan Script', cursive;
 
@@ -42,34 +39,25 @@ body {
   color: $rawan-sedang;
 }
 .text-rendah {
-  color: $rawan-rendah;
+  color: $tidak-rawan;
 }
-.status-rendah {
+
+.status {
   font-size: 16px;
   color: #ffffff;
   text-align: center;
   vertical-align: middle;
-  background-color: $rawan-rendah;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 5px 10px;
 }
-.status-sedang {
-  font-size: 16px;
-  color: #ffffff;
-  text-align: center;
-  vertical-align: middle;
+.tidak-rawan {
+  background-color: $tidak-rawan;
+}
+.rawan-sedang {
   background-color: $rawan-sedang;
-  border-radius: 10px;
-  padding: 5px 10px;
 }
-.status-tinggi {
-  font-size: 16px;
-  color: #ffffff;
-  text-align: center;
-  vertical-align: middle;
+.rawan-tinggi {
   background-color: $rawan-tinggi;
-  border-radius: 10px;
-  padding: 5px 10px;
 }
 
 // END OF GLOBAL
@@ -78,7 +66,7 @@ body {
 
 nav.navbar {
   padding: 10px 50px;
-  background-color: $color-1 !important;
+  background-color: #ffffff !important;
   .navbar-brand {
     font-family: $f-navbar;
     font-size: 28px;
@@ -97,11 +85,11 @@ main {
     margin-top: 50px;
 
     .header-card {
-      background-color: $color-2;
-      height: 50px;
+      background-color: $color-1;
+      height: 60px;
       border-radius: 10px;
+      margin-bottom: 20px;
       .card-body {
-        padding: 12px 20px;
         h1 {
           font-size: 18px;
           font-weight: bold;
@@ -109,11 +97,15 @@ main {
       }
     }
     .map-card {
-      margin-top: 30px;
       border-radius: 20px;
       overflow: hidden;
       .card-body {
         padding: 0;
+        iframe {
+          width: 100%;
+          height: 570px;
+          border: 0;
+        }
       }
     }
     .data-keseluruhan {
@@ -127,11 +119,21 @@ main {
         }
       }
     }
-    table {
-      margin-top: 30px;
-    }
+  }
+
+  .about {
+    background-color: #C7DEDF;
+    margin-top: 120px;
   }
 }
+
+// .modal-detail {
+//   .modal-content {
+//     .modal-body {
+
+//     }
+//   }
+// }
 
 
 // ******
