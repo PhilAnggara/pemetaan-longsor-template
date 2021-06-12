@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+.text-tinggi {
+  color: #FF4446;
+}
+
+.text-sedang {
+  color: #FFEA2C;
+}
+
+.text-rendah {
+  color: #6DE459;
+}
+
+.status {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50px;
+  padding: 5px 10px;
+}
+
+.tidak-rawan {
+  background-color: #6DE459;
+}
+
+.rawan-sedang {
+  background-color: #FFEA2C;
+}
+
+.rawan-tinggi {
+  background-color: #FF4446;
+}
+
+#sidebar .sidebar-wrapper .sidebar-header {
+  padding: 15px;
+  margin-bottom: -35px;
+}
+#sidebar .sidebar-wrapper .sidebar-header .brand-icon {
+  color: #1874C3;
+  font-size: 20px;
+}
+#sidebar .sidebar-wrapper .sidebar-header .brand {
+  font-family: "Lobster Two", cursive;
+  color: #53BEFE;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.main-content .card-statistic .card-body .card-subtitle {
+  font-size: 16px;
+}
+.main-content .card-statistic .card-body .btn-detail {
+  background-color: white;
+  color: #2D7CFD;
+  font-weight: 500;
+}
+.main-content .card-statistic .card-body .btn-detail:hover {
+  background-color: #f1f1f1;
+}
+.main-content .card-statistic .card-body .status-group .status-circle {
+  height: 45px;
+  width: 45px;
+  margin-right: 20px;
+}
+.main-content .card-statistic .card-body .status-group p {
+  font-size: 14px;
+  font-weight: 100;
+}
+.main-content .card-statistic .card-body .status-group h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.main-content .card-statistic .card-body .status-group h2 small {
+  font-size: 16px;
+  font-weight: normal;
+}/*# sourceMappingURL=admin.css.map */
