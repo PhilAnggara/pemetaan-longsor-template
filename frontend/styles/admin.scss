@@ -105,6 +105,20 @@ $f-brand: 'Lobster Two', cursive;
   }
 }
 
+.modal {
+  .modal-dialog {
+    .modal-content {
+      .modal-body {
+        img {
+          height: 150px;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
 #auth {
   background-image: none;
   background: #00b4db;
