@@ -32,46 +32,59 @@
   background-color: #FF4446;
 }
 
-#sidebar .sidebar-wrapper .sidebar-header {
+#app #sidebar .sidebar-wrapper .sidebar-header {
   padding: 15px;
   margin-bottom: -35px;
 }
-#sidebar .sidebar-wrapper .sidebar-header .brand-icon {
+#app #sidebar .sidebar-wrapper .sidebar-header .brand-icon {
   color: #1874C3;
   font-size: 20px;
 }
-#sidebar .sidebar-wrapper .sidebar-header .brand {
+#app #sidebar .sidebar-wrapper .sidebar-header .brand {
   font-family: "Lobster Two", cursive;
   color: #53BEFE;
   font-size: 24px;
   font-style: italic;
 }
-
-.main-content .card-statistic .card-body .card-subtitle {
+#app #main .main-content .card-statistic .card-body .card-subtitle {
   font-size: 16px;
 }
-.main-content .card-statistic .card-body .btn-detail {
+#app #main .main-content .card-statistic .card-body .btn-detail {
   background-color: white;
   color: #2D7CFD;
   font-weight: 500;
 }
-.main-content .card-statistic .card-body .btn-detail:hover {
+#app #main .main-content .card-statistic .card-body .btn-detail:hover {
   background-color: #f1f1f1;
 }
-.main-content .card-statistic .card-body .status-group .status-circle {
+#app #main .main-content .card-statistic .card-body .status-group .status-circle {
   height: 45px;
   width: 45px;
   margin-right: 20px;
 }
-.main-content .card-statistic .card-body .status-group p {
+#app #main .main-content .card-statistic .card-body .status-group p {
   font-size: 14px;
   font-weight: 100;
 }
-.main-content .card-statistic .card-body .status-group h2 {
+#app #main .main-content .card-statistic .card-body .status-group h2 {
   font-size: 36px;
   font-weight: bold;
 }
-.main-content .card-statistic .card-body .status-group h2 small {
+#app #main .main-content .card-statistic .card-body .status-group h2 small {
   font-size: 16px;
   font-weight: normal;
+}
+
+#auth {
+  background-image: none;
+  background: #00b4db;
+  background: linear-gradient(to bottom, #acb6e5, #86fde8);
+}
+#auth h3 {
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+  font-style: italic;
+}
+#auth h3 i {
+  font-size: 26px;
 }/*# sourceMappingURL=admin.css.map */
